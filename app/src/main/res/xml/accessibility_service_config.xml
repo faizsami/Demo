@@ -1,0 +1,7 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeViewClicked|typeViewFocused"
+    android:accessibilityFlags="flagDefault|flagRequestFilterKeyEvents"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="true"
+    android:packageNames="com.techinspire.lockdown,com.example.package2"
+    android:settingsActivity="com.techinspire.lockdown.MainActivity"/>
